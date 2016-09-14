@@ -9,7 +9,6 @@ output:
 ## Loading and preprocessing the data
 
 ```{r}
-suppressMessages(library(dplyr))
 zipfile<-"activity.zip"
 csvfile<-"activity.csv"
 if (!file.exists(csvfile)){unzip(zipfile)}
